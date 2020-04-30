@@ -1,0 +1,3 @@
+run install.sh ar root
+
+add the printer with the ppd at https://localhost:631
