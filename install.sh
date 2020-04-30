@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt-get install cups libcups2:i386 -y
+apt-get install libcups2:i386
 
 cp usr/lib/cups/filter/* /usr/lib/cups/filter/
 

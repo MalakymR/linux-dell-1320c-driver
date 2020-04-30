@@ -10,11 +10,11 @@
 *LanguageVersion: English
 *Manufacturer: "FX"
 *PCFileName: "FX52PJX1.PPD"
-*Product: "(DocuPrint C525 A-AP)"
+*Product: "(Dell 1320C)"
 *PSVersion: "(3015.102) 1"
-*ShortNickName: "FX DocuPrint C525 A-AP - en"
-*ModelName: "FX DocuPrint C525 A-AP - en"
-*NickName: "FX DocuPrint C525 A-AP v1.0"
+*ShortNickName: "Dell 1320C - en"
+*ModelName: "Dell 1320C - en"
+*NickName: "Dell 1320C v1.0"
 *cupsVersion: 1.1
 *cupsManualCopies: False
 *cupsFilter: "application/vnd.cups-postscript 0 /usr/lib/cups/filter/FXM_PF"
@@ -22,7 +22,7 @@
 *FXMainFilter: "/usr/lib/cups/filter/FXM_MF"
 *FXFilterDir: "/usr/lib/cups/filter"
 *FXFilterChain: "FXM_PS2PM, FXM_PM2FXR, FXM_SBP, FXM_PR, FXM_CC, FXM_ALC, FXM_HBPL"
-*FXDlutFilePath: "/usr/share/cups/FujiXerox/dlut/FX_DocuPrint_C525_A_AP.dlut"
+*FXDlutFilePath: "/usr/share/cups/dell/dlut/dell-1320c.dlut"
 
 *% === Options and Constraints =========
 *OpenGroup: InstallableOptions/Options Installed
@@ -36,7 +36,7 @@
 *CloseUI: *InstalledMemory
 
 *OpenUI *Option1/Optional Tray Module: PickOne
-*DefaultOption1: None
+*DefaultOption1: 1Tray-S
 *Option1 None/Not Available: ""
 *Option1 1Tray-S/250 Sheet Feeder: ""
 *Option1 1Tray-H/500 Sheet Feeder: ""
@@ -1002,7 +1002,7 @@
 *% InputSlot Information ================
 *OpenUI *FXInputSlot/Paper Source: PickOne
 *OrderDependency: 50.0 AnySetup *FXInputSlot
-*DefaultFXInputSlot: BypassTray
+*DefaultFXInputSlot: 1stTray-S
 *FXInputSlot AutoSelect/Auto: "<</FXInputSlot AutoSelect>>setpagedevice"
 *FXInputSlot 1stTray-S/Tray 1 (250 Sheets): "<</FXInputSlot 1stTray-S>>setpagedevice"
 *FXInputSlot 1stTray-H/Tray 1 (500 Sheets): "<</FXInputSlot 1stTray-H>>setpagedevice"
